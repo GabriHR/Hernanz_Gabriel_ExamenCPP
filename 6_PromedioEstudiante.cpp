@@ -13,5 +13,9 @@ int main(){
     for (int calificacion : calificaciones) {
         suma += calificacion;
     }
+    double promedio = static_cast<double>(suma) / calificaciones.size();
 
+    cout << "El promedio de las calificaciones es: " << promedio << endl;
+
+    return 0;
 }
