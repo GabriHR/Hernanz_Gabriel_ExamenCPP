@@ -12,6 +12,9 @@ public:
         cout<<"Ingresa el nombre del estudiante: "; cin>>nombre;
         cout<<"Ingresa la edad del estudiante: "; cin>>edad;
         cout<<"Ingresa el grado del estudiante: "; cin>>grado;
+        cout<<"Nombre: "<<nombre<<endl;
+        cout<<"Edad: "<<edad<<endl;
+        cout<<"Grado: "<<grado<<endl;
 
 };
 };
