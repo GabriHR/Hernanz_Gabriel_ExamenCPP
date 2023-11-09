@@ -12,4 +12,10 @@ int main(){
     int n2=44;
     cout<<"Los valores iniciales son: \nnum1: "<<n1<<", \n2: "<<n2<<endl;
 
+    int* puntero1=&n1;
+    int* puntero2=&n2;
+
+    intercambiar(puntero1,puntero2);
+
+
 }
