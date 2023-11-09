@@ -10,7 +10,7 @@ void intercambiar(int* a, int*b){
 int main(){
     int n1=4;
     int n2=44;
-    cout<<"Los valores iniciales son: \nnum1: "<<n1<<", \n2: "<<n2<<endl;
+    cout<<"Los valores iniciales son: \nn1: "<<n1<<" \nn2: "<<n2<<endl;
 
     int* puntero1=&n1;
     int* puntero2=&n2;
@@ -18,4 +18,6 @@ int main(){
     intercambiar(puntero1,puntero2);
 
 
+
+    return 0;
 }
