@@ -9,5 +9,9 @@ int main(){
     for (int calificacion : calificaciones) {
         cout << " " << calificacion;
     }
+    int suma = 0;
+    for (int calificacion : calificaciones) {
+        suma += calificacion;
+    }
 
 }
