@@ -9,3 +9,11 @@ int divide(int x, int y){
     return x/y;
 }
 
+int main(){
+    int numerador, denominador;
+    cout<<"Digite el valor del numerador: "; cin>>numerador;
+    cout<<"Digite el valor del denominador: ";cin>>denominador;
+
+
+    }
+}
