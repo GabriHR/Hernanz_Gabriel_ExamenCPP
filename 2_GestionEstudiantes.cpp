@@ -3,5 +3,15 @@
 using namespace std;
 
 class Estudiante{
+private:
+    string nombre;
+    int edad;
+    string grado;
+public:
+    void mostrar_info(){
+        cout<<"Ingresa el nombre del estudiante: "; cin>>nombre;
+        cout<<"Ingresa la edad del estudiante: "; cin>>edad;
+        cout<<"Ingresa el grado del estudiante: "; cin>>grado;
 
+};
 };
