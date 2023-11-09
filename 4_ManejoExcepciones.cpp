@@ -14,6 +14,12 @@ int main(){
     cout<<"Digite el valor del numerador: "; cin>>numerador;
     cout<<"Digite el valor del denominador: ";cin>>denominador;
 
-
+    try{
+        int resultado=divide(numerador,denominador);
+        cout<<"El resultado de la division es: "<<resultado<<endl;
     }
+    catch (const char* notificacion_error){
+        cout<<"La excepcion es: "<<notificacion_error<<endl;
+    }
+
 }
