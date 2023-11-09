@@ -21,5 +21,8 @@ int main(){
     catch (const char* notificacion_error){
         cout<<"La excepcion es: "<<notificacion_error<<endl;
     }
+    cout<<"El programa sigue funcionando despues del error: "<<endl;
+
+    return 0;
 
 }
