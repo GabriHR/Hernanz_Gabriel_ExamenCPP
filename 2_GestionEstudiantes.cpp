@@ -16,8 +16,16 @@ public:
         cout << "Ingresa el grado del estudiante: ";
         cin >> grado;
         cout << "Nombre: " << nombre << endl;
-        cout << "Edad: " << edad << endl;
+        cout << "Edad: " << edad <<"anos"<< endl;
         cout << "Grado: " << grado << endl;
 
     }
 };
+
+int main(){
+    Estudiante estudiante;
+    cout<<"Por favor, proporciona la informacion del estudiante: "<<endl;
+    estudiante.mostrar_info();
+
+    return 0;
+}
