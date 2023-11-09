@@ -17,7 +17,7 @@ int main(){
 
     intercambiar(puntero1,puntero2);
 
-
+    cout<<"Los valores ya intercambiados son: \nn1: "<<n1<<" \nn2: "<<n2<<endl;
 
     return 0;
 }
